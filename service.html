@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap-5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="selektor css v 2/mainstyle.css">
+  	<link rel="stylesheet" type="text/css" href="selektor css v 2/mediaquerytablet.css">
+    <link rel="stylesheet" type="text/css" href="selektor css v 2/mediaquerymobile.css">
+  	<link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Debola Market - Jasa</title>
+    <style>
+      .wrap{
+        justify-content: flex-start;
+      }
+
+      .card{
+        overflow: hidden;
+      }
+
+      .price-box{
+        bottom: 0; left: 10px;
+      }
+
+      .offer-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+
+      @media only screen and (max-width:  824px){
+        .column-2-tab{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .offer-container{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media only screen and (max-width:  600px){
+        .column-mob{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: normal;
+        }
+      }
+    </style>
+</head>
+<body class="container grey-1 py-0">
+    <section class="nav w-100">
+        <nav class="navbar navbar-expand-lg w-100">
+          <div class=" w-100 between-center">
+              <a class="navbar-brand w-25pers w-50pers-mob" href="#">Debola Market</a>
+              <div class="end-center w-75pers w-50pers-mob">
+                <ul class="navbar-nav mb-2 mb-lg-0 desktop-tablet">
+                  <li class="nav-item">
+                    <a class="nav-link px-3"href="index.html">Beranda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="portfolio.html">Produk</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3 active" href="#service">Jasa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="contact.html">Kontak</a>
+                  </li>
+                 </ul>
+
+                 <div class="dropdown mobile">
+                    <button class="btn" type="button" data-bs-toggle="dropdown">
+                      <img src="icon/menu.png" alt="" width="30px">
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        <a class="nav-link px-3 text-secondary " href="index.html">Beranda</a>                      
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-secondary" href="portfolio.html">Produk</a>
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-dark" href="#service">Jasa</a>
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-secondary" href="contact.html">Kontak</a>                        
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+        </nav>
+    </section>
+
+
+    <section class="offer my-5">      
+        <h3 class="fw-bold center">Jasa Yang Kami Tawarkan</h3>
+        <div class="offer-container between-start mt-3 column-2-tab column-mob">
+
+          <div class="p-3 between-start column-mob shadow m-2 bg-white rounded">
+            <div class="w-50pers w-100pers-mob">
+              <img src="img/foto1.png" class="w-100 m-p-0 h-300px " alt="">            
+            </div>
+            <div class="w-50pers w-100pers-mob p-3 p-relative h-300px h-200px-mob">
+              <h4 class="card-title fw-bold">Figma to web</h4>
+              <p>Jadikan design Anda menjadi website dengan harga dimulai Rp. 80.000</p>
+              <div class="box price-box column-start p-absolute">
+                <h5 class=" fw-bold left">Rp. 80.000</h4>                
+                <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan jasa pembuatan website dari suatu design" class="px-3 m-0 py-2 rounded no-outline no-border bg-third text-white inline-block">Pesan sekarang</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-3 between-start column-mob shadow m-2 bg-white rounded">
+            <div class="w-50pers w-100pers-mob">
+              <img src="img/foto5.jpeg" class="w-100 m-p-0 h-300px " alt="">            
+            </div>
+            <div class="w-50pers w-100pers-mob p-3 p-relative h-300px h-200px-mob">
+              <h4 class="card-title fw-bold">Jual Beli Source Code Website</h4>
+              <p>Butuh source code website? kami telah menyediakan beragam source code yang dapat anda pakai.</p>
+               <div class="box price-box column-start p-absolute">
+                <h5 class=" fw-bold left">Rp. 80.000</h4>                
+                <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan source code website, apakah tersedia?" class="px-3 m-0 py-2 rounded no-outline no-border bg-third text-white inline-block">Pesan sekarang</a>
+              </div>
+            </div>
+          </div>
+          <div class="p-3 between-start column-mob shadow m-2 bg-white rounded">
+            <div class="w-50pers w-100pers-mob">
+              <img src="img/foto4.jpeg" class="w-100 m-p-0 h-300px " alt="">            
+            </div>
+            <div class="w-50pers w-100pers-mob p-3 p-relative h-300px h-200px-mob">
+              <h4 class="card-title fw-bold">Landing Page</h4>
+              <p>Landing Page berguna untuk memperkenalkan bisnis anda ke pelanggan, kami bersedia membuatkan Anda landing page sesuai bisnis Anda</p>
+               <div class="box price-box column-start p-absolute">
+                <h5 class=" fw-bold left">Rp. 500.000</h4>                
+                <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan jasa pembuatan landing page untuk bisnis saya" class="px-3 m-0 py-2 rounded no-outline no-border bg-third text-white inline-block">Pesan sekarang</a>
+              </div>
+            </div>
+          </div>
+          <div class="p-3 between-start column-mob shadow m-2 bg-white rounded">
+            <div class="w-50pers w-100pers-mob">
+              <img src="img/foto2.jpeg" class="w-100 m-p-0 h-300px " alt="">            
+            </div>
+            <div class="w-50pers w-100pers-mob p-3 p-relative h-300px h-200px-mob">
+              <h4 class="card-title fw-bold">Web App</h4>
+              <p>Jalankan bisnis anda dengan aplikasi website yang serbaguna.</p>
+             <div class="box price-box column-start p-absolute">
+                <h5 class=" fw-bold left">Dimulai Rp. 500.000</h5>                
+                <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan aplikasi website untuk bisnis" class="px-3 m-0 py-2 rounded no-outline no-border bg-third text-white inline-block">Pesan sekarang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <script src="bootstrap-5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

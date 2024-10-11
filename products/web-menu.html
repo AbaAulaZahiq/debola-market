@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="../bootstrap-5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../selektor css v 2/mainstyle.css">
+	<link rel="stylesheet" type="text/css" href="../selektor css v 2/mediaquerytablet.css">
+  <link rel="stylesheet" type="text/css" href="../selektor css v 2/mediaquerymobile.css">
+	<link rel="stylesheet" type="text/css" href="../style1.css">
+    <title>Debola Market - Web Menu</title>
+    <style>
+      .wrap{
+        justify-content: flex-start;
+      }
+
+      .card{
+        overflow: hidden;
+      }
+
+      .price-box{
+        bottom: 0; left: 10px;
+      }
+
+      .offer-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @media only screen and (max-width:  824px){
+        .column-2-tab{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .offer-container{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media only screen and (max-width:  600px){
+        .column-mob{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: normal;
+        }
+      }
+    </style>
+</head>
+<body class="container grey-1">
+    <section class="nav w-100 mt-3">
+        <nav class="navbar navbar-expand-lg  w-100">
+            <div class="w-100 between-center">
+              <a class="text-dark m-p-0" href="../portfolio.html"><img src="../icon/right-arrow (1).png" width="25px" style="transform: rotate(180deg);" class="me-3"> Kembali</a>
+            </div>
+          </nav>
+    </section>
+
+    <main class="between-start mt-5 ">
+      <div class="w-50pers shadow p-relative" id="">
+        <div id="preview" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+             <button type="button" data-bs-target="#preview" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#preview" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#preview" data-bs-slide-to="2" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#preview" data-bs-slide-to="3" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#preview" data-bs-slide-to="4" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#preview" data-bs-slide-to="5" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#preview" data-bs-slide-to="6" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#preview" data-bs-slide-to="7" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#preview" data-bs-slide-to="8" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">          
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="../img/web-menu/order-menu.png" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Halaman pemesanan menu</h5>
+                  <p class="">Halaman dimana pelanggan dapat menentukan menu dan membuat pesanan</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/web-menu/menu-ordered.png" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Halaman menu dipesan</h5>
+                  <p class="">Halaman dimana menu yang sudah dipesan akan ditampilkan untuk dicetak</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/web-menu/dashboard.png" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Halaman dashboard</h5>
+                  <p class="">Halaman berisi ringkasan data aplikasi</p>
+                </div>            
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/web-menu/menu.png" alt="">            
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Halaman menu</h5>
+                  <p class="">Halaman dimana anda dapat melihat menu yang terdaftar, bisa ditambah dan dihapus</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/web-menu/pesanan.png" alt="">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Halaman pemesan</h5>
+                  <p class="">Halaman yang menampilkan pesanan yang telah dibuat pelanggan</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/web-menu/informasi.png" alt="">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Halaman informasi perusahaan</h5>
+                  <p class="">Halaman khusus untuk menambahkan identitas bisnis Anda</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/web-menu/backup.png" alt="">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-dark">Halaman backup data</h5>
+                  <p class="text-dark">Lakukan backup data disini, supaya data menu dan data pesanan tidak hilang!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/web-menu/display.png" alt="">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-white">Halaman display menu</h5>
+                  <p class="text-white">Halaman khusus untuk menampilkan daftar menu melalui TV</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/web-menu/print-ordered.png" alt="">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Tampilan struk</h5>
+                  <p class="">Ini adalah tampilan struk yang telah dicetak</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#preview" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#preview" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="w-50pers w-100pers-mob  p-3 p-relative h-320px">
+        <h4 class="card-title fw-bold">Debola Menu - Web Menu Digital </h4>
+        <span class="badge bg-danger mb-3">v 1.0</span>
+        <p>Akses menu restoran melalui aplikasi yang serbaguna</p>
+        <div class="price-box w-100 p-absolute column-start">
+          <div class="price mb-3">
+            <h4 class="fw-bold">Rp. 250.000</h4>
+            <h6 class="price-box text-secondary text-decoration-line-through">Rp. 500.000</h6>
+            <p class="text-secondary m-p-0">*Sudah termasuk biaya hosting satu tahun</p>          
+          </div>
+          <div class="button-group between-center w-100">
+            <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan website menu digital untuk bisnis saya" class="btn bg-third w-50 shadow text-white">Pesan Sekarang</a>
+            <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan source code website menu digital" class="btn outline-third w-50 shadow">Pesan Source Code</a>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+
+    <section class="description mt-5">
+      <h5 class="fw-bold">Deskripsi</h5>
+      <p>Aplikasi debola menu adalah aplikasi yang dapat menampilkan menu dari suatu restoran kepada pelanggan. Aplikasi ini dapat di akses oleh pelanggan melalui qrcode yang bisa di-scan. Nantinya pelanggan dapat melihat dan memesan menu melalui aplikasi ini.</p>
+
+      <p>Jikalau Anda tertarik, pesanlah sekarang juga dan kami akan meng-hosting-kan aplikasi ini untuk bisnis Anda.</p>
+      <p>Fitur aplikasi:</p>
+      <ul>
+        <li>memudahkan pelanggan dalam memesan makanan tanpa haru s pergi ke kasir. karena tersedia qrcode untuk memesan menu di meja mereka</li>
+        <li>penghematan biaya pembuatan cetakan menu, karena menu ditampilkan di aplikasi dan flexibel</li>
+      </ul>
+      <p>Fitur aplikasi:</p>
+      <ul>
+        <li>Dapat dibuka di berbagai perangkat seperti laptop, komputer, tablet, atau handphone</li>
+
+        <li>Tampilan aplikasi yang ramah, penggunaan sangat simple dengan tampilan aplikasi yang mudah dipahami oleh pengguna awam IT sekalipun.</li>
+
+        <li>Pelanggan dapat memesan menu melalui aplikasi, dan pesanan akan masuk ke kasir.</li>
+
+        <li>Tersedia fitur notifikasi berupa suara yang akan berbunyi saat ada menu terbaru</li>
+
+        <li>Tersedia tampilan khusus yang bisa dipakai sebagai template menu yang bisa ditampilkan ke TV</li>
+
+        <li>Aplikasi dapat memanggil pelanggan (menghasilkan suara) berdasarkan nomor meja tertentu.</li>
+
+        <li>Mendukung pembayaran cash atau digital (dana, gopay, card, dll) menggunakan layanan midtrans</li>
+
+        <li>Struk dapat diunduh oleh pelanggan melalui handphone mereka</li>
+
+        <li>Cetak struk PDF</li>
+
+        <li>Laporan menu dan pesanan dalam bentuk PDF</li>
+
+        <li>Fitur backup database sehingga user tidak akan kehilangan data pesanan dan menu meski terjadi sesuatu pada aplikasi</li>
+
+      </ul>
+      <p>Jikalau aplikasi kami memiliki fitur yang kurang sesuai, kami bersedia menambahkan fitur tambahan sesuai permintaan anda. Untuk harganya tergantung dari seberapa banyak dan sulit fitur yang dibuat.</p>
+    </section>
+
+    <footer>
+      <p class="center mt-4">Copyright debola market - 2024</p>
+    </footer>
+
+    <script src="../bootstrap-5.2/js/bootstrap.min.js"></script>
+
+    <!-- Include jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>
