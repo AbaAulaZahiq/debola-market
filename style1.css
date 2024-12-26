@@ -1,0 +1,65 @@
+*{
+    transition: .3s;
+}
+
+.bg-first{
+    background: #f77f00;
+}
+.bg-second{
+    background: #d62828;
+}
+.bg-third{
+    background: #003049;
+}
+
+.outline-first{
+    border: 1px solid #f77f00;
+    color: #f77f00;
+}
+.outline-second{
+    border: 1px solid #d62828;
+    color: #d62828;
+}
+.outline-third{
+    border: 1px solid #003049;
+    color:  #003049;
+}
+
+
+.btn.bg-first:hover, .outline-first:hover{
+    background: #f77f00;
+    color:  #fff;
+}
+.btn.bg-second:hover, .outline-second:hover{
+    background: #d62828;
+    color:  #fff;
+}
+.btn.bg-third:hover, .outline-third:hover{
+    background: #003049;
+    color:  #fff;
+}
+
+.hover-scale-mini:hover{
+    transform: scale(1.1);
+}
+
+.hover-border-black:hover{
+    border: 1px solid black;
+}
+
+.hover-border-white:hover{
+    border: 1px solid white;
+}
+
+.hover-show-shadow:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.hover-hide-shadow:hover{
+    box-shadow: none;
+}
+
+.label-discount{
+  top: -30px; right: -95px;
+  transform: rotate(45deg);
+}

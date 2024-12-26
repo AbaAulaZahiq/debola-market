@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap-5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="selektor css v 2/mainstyle.css">
+  	<link rel="stylesheet" type="text/css" href="selektor css v 2/mediaquerytablet.css">
+    <link rel="stylesheet" type="text/css" href="selektor css v 2/mediaquerymobile.css">
+  	<link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Debola Market - Produk</title>
+    <style>
+      .wrap{
+        justify-content: flex-start;
+      }
+
+      .card{
+        /*text-decoration: line-through;*/
+        overflow: hidden;
+      }
+
+      .price-box{
+        bottom: 0; right: 10px;
+      }
+
+      .offer-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .offer-container a{
+        min-height: 490px;
+      }
+
+      @media only screen and (max-width:  824px){
+        .column-2-tab{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .offer-container{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media only screen and (max-width:  600px){
+        .column-mob{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: normal;
+        }
+      }
+    </style>
+</head>
+<body class="container grey-1 py-0">
+    <section class="nav w-100">
+        <nav class="navbar navbar-expand-lg w-100">
+          <div class=" w-100 between-center">
+              <a class="navbar-brand w-25pers w-50pers-mob" href="#">Debola Market</a>
+              <div class="end-center w-75pers w-50pers-mob">
+                <ul class="navbar-nav mb-2 mb-lg-0 desktop-tablet">
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="index.html">Beranda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3 active" href="#portfolio">Produk</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="service.html">Jasa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="contact.html">Kontak</a>
+                  </li>
+                 </ul>
+
+                 <div class="dropdown mobile">
+                    <button class="btn" type="button" data-bs-toggle="dropdown">
+                      <img src="icon/menu.png" alt="" width="30px">
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        <a class="nav-link px-3 text-secondary " href="index.html">Beranda</a>                      
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-dark" href="#portfolio">Produk</a>
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-secondary" href="service.html">Jasa</a>                        
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-secondary" href="contact.html">Kontak</a>                        
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+        </nav>
+    </section>
+
+
+    <section class="offer my-5">      
+        <h3 class="fw-bold center">Produk Kami</h3>
+
+        <h5 id="web-app">Web App</h5>
+        <div class="offer-container between-start mt-3 column-2-tab column-mob">
+          <a href="products/web-menu.html" class="p-2 text-dark column shadow bg-white rounded m-2">
+            <div class="w-100 m-p-0 p-relative overflow-hidden">
+              <div class="label-discount bg-danger w-250px text-white center pt-5 p-absolute">Diskon <br> <span class="f-25px">50%</span></div>
+              <img src="img/web-menu/dashboard.png" class="w-100 m-p-0s h-300px h-30pers-mob " alt="">            
+            </div>
+            <div class="w-100 p-3 p-relative">
+              <h4 class="card-title fw-bold">Debola Menu - Web Menu Digital</h4>
+              <p>Akses menu restoran melalui aplikasi yang serbaguna.</p>
+              <h4 class="price-box fw-bold right">Rp. 250.000</h4>              
+              <h5 class="price-box right text-secondary text-decoration-line-through">Rp. 500.000</h5>
+            </div>
+          </a>
+
+          <a href="products/web-note.html" class="p-2 text-dark column shadow bg-white rounded m-2">
+            <div class="w-100 m-p-0 p-relative overflow-hidden">
+              <img src="img/web-note.png" class="w-100 m-p-0s h-300px h-30pers-mob " alt="">            
+            </div>
+            <div class="w-100 p-3 p-relative">
+              <h4 class="card-title fw-bold">Debola Note - Aplikasi Catatan</h4>
+              <p>Buat catatan sederhana menggunakan Aplikasi Debola Note</p>
+              <h4 class="price-box fw-bold right">Gratis - kunjungi segera</h4>              
+              <h5 class="price-box right text-secondary text-decoration-line-through"></h5>
+            </div>
+          </a>
+
+          <a href="products/web-ppdb.html" class="p-2 text-dark column shadow bg-white rounded m-2">
+            <div class="w-100 m-p-0 p-relative overflow-hidden">
+              <img src="img/web-note.png" class="w-100 m-p-0s h-300px h-30pers-mob " alt="">            
+            </div>
+            <div class="w-100 p-3 p-relative">
+              <h4 class="card-title fw-bold">Debola PPDB - Aplikasi Pengelolaan PPDB</h4>
+              <p>Solusi inovatif untuk mengelola PPDB dengan mudah dan efisien</p>
+              <h4 class="price-box fw-bold right">Rp. 100.000 / bulan</h4>              
+              <h5 class="price-box right text-secondary text-decoration-line-through">Rp. 120.000 / bulan</h5>
+            </div>
+          </a>
+        </div>
+
+        <h5 id="web-app" class="mt-5 pt-5">Landing Page</h5>
+        <div class="offer-container between-start mt-3 column-2-tab column-mob">
+          
+        </div>
+    </section>
+    <script src="bootstrap-5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Debola Market adalah toko jual beli source code, aplikasi web, dan landing page dengan harga murah. kami juga menerima pembuatan website sesuai keinginan anda. ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-site-verification" content="oH5fx1CzQOdDHkSra0B_IObMe4Zp2s-R6xvVaENSjQM" />
+    <meta name="keywords" content="jasa pembuatan website, jual beli website, website murah, jasa website, beli website, debola, debola market" />
+    <link rel="stylesheet" href="bootstrap-5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="selektor css v 2/mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="selektor css v 2/mediaquerytablet.css">
+    <link rel="stylesheet" type="text/css" href="selektor css v 2/mediaquerymobile.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Debola Market - Jasa Pembuatan Website Dengan Harga Terjangkau</title>e>
+    <style>
+      #img-main-1{
+        bottom: -500px; right: 30px;
+        filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+      }
+
+      #img-main-2{
+        bottom: -00px;
+        filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+      }
+
+      .wrap{justify-content: flex-start;}
+
+      .card{
+        overflow: hidden;
+      }
+      .layer-card{
+        position: absolute;
+        top: 0; left: -100%;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        transition: .3s
+      }
+      .card-portofolio:checked ~ .layer-card, .card-programming:checked ~ .layer-card{
+        /* display: block; */
+        left: 0;
+      }
+
+      .steps-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .product-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+
+      @media only screen and (max-width:  824px){
+        .column-2-tab{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+      }
+
+      @media only screen and (max-width:  600px){
+        .column-mob{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: normal;
+        }
+
+        .steps-container{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .service-container, .product-container{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .main{
+          height: 70vh;
+        }
+      }
+    </style>
+</head>
+<body class="grey-1">
+  <div class="container py-0">
+    <section class="nav w-100">
+        <nav class="navbar navbar-expand-lg w-100">
+          <div class=" w-100 between-center">
+              <a class="navbar-brand w-25pers w-50pers-mob" href="#">Debola Market</a>
+              <div class="end-center w-75pers w-50pers-mob">
+                <ul class="navbar-nav mb-2 mb-lg-0 desktop-tablet">
+                  <li class="nav-item">
+                    <a class="nav-link px-3 active" aria-current="page" href="#introduction">Beranda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="portfolio.html">Produk</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="service.html">Jasa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="contact.html">Kontak</a>
+                  </li>
+                 </ul>
+
+                 <div class="dropdown mobile">
+                    <button class="btn" type="button" data-bs-toggle="dropdown">
+                      <img src="icon/menu.png" alt="" width="30px">
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        <a class="nav-link px-3 text-dark " aria-current="page" href="#introduction">Beranda</a>                      
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-secondary" href="portfolio.html">Produk</a>
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-secondary" href="service.html">Jasa</a>                        
+                      </li>
+                      <li>
+                        <a class="nav-link px-3 text-secondary" href="contact.html">Kontak</a>                        
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+        </nav>
+    </section>
+
+
+    <section class="main d-flex between-center column-tab center-center-mob p-0-50px p-0-mob overflow-hidden"  id="Introduction">
+        <div class="overflow-hidden p-relative w-50 mb-4 me-5 remove-mob" style="height: 70vh;">
+          <img src="img/Lifestyle Illustrations.jpeg" width="400px" id="img-main-1" class="p-absolute" alt="Contoh website yang dibuat di Debola Mart">
+          <img src="img/b2011afe-372b-48c7-9ddb-e64ced237eb9.jpeg" width="400px" id="img-main-2" class="p-absolute">
+        </div>
+        <div class="group-text-main w-50pers w-100pers-mob column-mob">
+            <h1 class="fw-bold center-tab f-50px f-45px-mob">Hidupkan Website Impian Anda</h1>
+            <p class="text-muted center-tab"></p>
+            <div class="between-center w-75pers w-100pers-mob column-mob">
+              <a href="portfolio.html"  class="px-5 py-2 rounded no-outline no-border bg-third text-white shadow w-100pers-mob">Lihat Produk</a>
+              <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan jasa pembuatan website" class="btn outline-third p-0-40px py-2 m-20px-0-mob w-100pers-mob">Hubungi kami</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about p-50px p-0-mob" id="about">
+        <h2 class="text-center fw-bold">Tentang Kami</h2>
+        <div class="group-text-about between-center column-tab">
+            <p class="w-50pers w-100pers-mob justify m-auto">Debola Market adalah tempat jual beli source code website dengan harga murah. Kami pun membuka jasa pembuatan website sesuai permintaan Anda. Website yang kami buat bisa beragam, mulai dari website bisnis, website perusahaan, dan landing page.</p>
+        </div>        
+    </section>
+
+    <section class="reasons my-5">      
+        <h2 class="fw-bold mt-5 center pt-5">Penawaran Yang Kami Berikan</h2>
+        <div class="between-start mt-3 column-2-tab column-mob">
+          <div class="box-offer hover-scale-mini text-white bg-first card shadow m-2 w-300px h-200px">      
+            <div class="card-body ">
+              <h5 class="card-title fw-bold">Harga Terjangkau Dengan Kualitas Terbaik</h5>
+              <p>Kami menawarkan jasa pembuatan website dengan harga yang terjangkau tetapi dengan kualitas terbaik.</p>
+            </div>
+          </div>
+          <div class="box-offer hover-scale-mini text-white bg-second card shadow m-2 w-300px h-200px">    
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Memiliki Beragam Fitur Di Dalam Website</h5>
+              <p>Website buatan kami selalu memiliki fitur yang beragam, selain itu Anda juga dapat membuat permintaan fitur kepada kami.</p>
+            </div>
+          </div>
+          <div class="box-offer hover-scale-mini text-white bg-third card shadow m-2 w-300px h-200px">     
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Optimasi SEO <span class="text-decoration-underline text-warning">Secara Gratis</span></h5>
+              <p>Setiap website akan kami berikan optimasi SEO secara gratis. Sehingga, website Anda dapat dicari pelanggan dengan mudah.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- service -->
+    <section class="service m-130px-0" id="service">
+        <h2 class="text-center fw-bold mt-5">Jasa Yang Kami Sediakan</h2>
+        <div class="service-container  between-start mt-4 column-2-tab">
+          <div class="card service-box hover-scale-mini w-200px w-100pers-mob shadow m-10px">
+            <img src="img/foto1.png" class="card-img-top img-thumbnail h-250px-mob h-200px" alt="Logo Figma">
+            <div class="card-body">
+              <h5 class="card-title">Figma Design To Website</h5>
+            </div>
+          </div>   
+          <div class="card service-box hover-scale-mini w-200px w-100pers-mob shadow m-10px">
+            <img src="img/foto5.jpeg" class="card-img-top img-thumbnail h-250px-mob h-200px" alt="Ilustrasi kode program komputer">
+            <div class="card-body">
+              <h5 class="card-title">Jual Beli Source Code</h5>
+            </div>
+          </div>   
+          <div class="card service-box hover-scale-mini w-200px w-100pers-mob shadow m-10px">
+            <img src="img/foto2.jpeg" class="card-img-top img-thumbnail h-250px-mob h-200px" alt="Satu tim sedang membangun website untuk pelanggan">
+            <div class="card-body">
+              <h5 class="card-title">Pembuatan Web App</h5>
+            </div>
+          </div>   
+          <div class="card service-box hover-scale-mini w-200px w-100pers-mob shadow m-10px">
+            <img src="img/foto4.jpeg" class="card-img-top img-thumbnail h-250px-mob h-200px" alt="contoh design landing page yang memiliki ilustrasi">
+            <div class="card-body">
+              <h5 class="card-title">Pembuatan Landing Page</h5>
+            </div>
+          </div>   
+        </div>
+        <a href="service.html" class="px-5 py-2 mt-5 rounded no-outline no-border w-100pers-mob center bg-third text-white inline-block">Lihat Selengkapnya</a>  
+    </section>
+
+    <!-- product -->
+    <section class="portofolio mt-5 py-5" id="portfolio"> 
+      <h2 class="text-center f-bold">Produk Kami</h2>
+      <div class="product-container  mt-3 column-2-tab">
+          <div class="card shadow m-2 w-250px w-100pers-mob">
+            <img src="img/web-menu/dashboard.png" class="card-img-top" width="80%" height="">
+            <div class="card-body">
+              <h5 class="card-title">Debola Menu - Web Menu Digital</h5>
+              <a href="products/web-menu.html" class="px-5 py-2 rounded no-outline no-border bg-third text-white ">Lihat Detail</a>
+            </div>
+          </div> 
+
+          <div class="card shadow m-2 w-250px w-100pers-mob">
+            <img src="img/web-note.png" class="card-img-top" width="80%" height="">
+            <div class="card-body">
+              <h5 class="card-title">Debola Note - Aplikasi Catatan</h5>
+              <a href="products/web-note.html" class="px-5 py-2 rounded no-outline no-border bg-third text-white ">Lihat Detail</a>
+            </div>
+          </div>    
+
+          <div class="card shadow m-2 w-250px w-100pers-mob">
+            <img src="img/web-note.png" class="card-img-top" width="80%" height="">
+            <div class="card-body">
+              <h5 class="card-title">Debola PPDB - Aplikasi Pengelolaan PPDB</h5>
+              <a href="products/web-ppdb.html" class="px-5 py-2 rounded no-outline no-border bg-third text-white ">Lihat Detail</a>
+            </div>
+          </div>    
+          
+
+          <div class=" h-250px h-30px-mob m-2 center-center w-250px w-100pers-mob">
+            <a href="portfolio.html" class="shadow border mx-5 circle-60px bg-white desktop-tablet">
+              <img src="icon/right-arrow (1).png" width="30px" class="" title="Berpindah Ke Halaman Produk">
+            </a>
+            <a href="portfolio.html" class="shadow border px-3 py-2 text-dark w-100 rounded-pill  bg-white mobile">
+              Lihat Produk Lainnya
+              <img src="icon/right-arrow (1).png" width="20px" class="ms-3" title="Berpindah Ke Halaman Produk">
+            </a>
+          </div>                
+        
+      </div>
+    </section>
+
+    <!-- step -->
+    <section class="steps mt-5">      
+      <h2 class="fw-bold mt-5 center pt-5">Bagaimana Cara Membeli Aplikasi Kami?</h2>
+      <div class="steps-container mt-3 column-2-tab column-mob">
+        <div class="box-step hover-border-black shadow card border-w my-2 w-300px w-100pers-mob m-auto-mob">              
+          <div class="card-body">
+            <div class="circle-40px bg-third text-light center-center m-auto">1</div>
+            <h5 class="card-title fw-bold center mt-3">Lihat Website Yang Kami Kembangkan</h5>
+            <p class="justify">Pergi ke <a href="portfolio.html" class=" m-p-0 inline-block">Halaman Produk</a> untuk melihat beberapa website yang kami tawarkan</p>
+          </div>
+        </div>
+        <div class="box-step hover-border-black shadow card border-w my-2 w-300px w-100pers-mob m-auto-mob">              
+          <div class="card-body">
+            <div class="circle-40px bg-third text-light center-center m-auto">2</div>
+            <h5 class="card-title fw-bold center mt-3">Pilih Website Yang anda Minati</h5>
+            <p class="justify">klik salah satu website yang Anda minati untuk melihat informasi dari website tersebut</p>
+          </div>
+        </div>
+        <div class="box-step hover-border-black shadow card border-w my-2 w-300px w-100pers-mob m-auto-mob">              
+          <div class="card-body">
+            <div class="circle-40px bg-third text-light center-center m-auto">3</div>
+            <h5 class="card-title fw-bold center mt-3">Bacalah Informasi Terkait Website</h5>
+            <p class="justify">Setiap website yang kami tawarkan memiliki fitur dan fungsi yang berbeda, itulah kenapa Anda perlu website yang cocok dengan kebutuhan anda</p>
+          </div>
+        </div>         
+        <div class="box-step hover-border-black shadow card border-w my-2 w-300px w-100pers-mob m-auto-mob">              
+          <div class="card-body">
+            <div class="circle-40px bg-third text-light center-center m-auto">4</div>
+            <h5 class="card-title fw-bold center mt-3">Klik Tombol "Pesan Sekarang"</h5>
+            <p class="justify">Kalau dirasa website sudah sesuai dengan kebutuhan Anda, Anda boleh mengklik tombol "Pesan Sekarang"</p>
+          </div>
+        </div>
+        <div class="box-step hover-border-black shadow card border-w my-2 w-300px w-100pers-mob m-auto-mob">              
+          <div class="card-body">
+            <div class="circle-40px bg-third text-light center-center m-auto">5</div>
+            <h5 class="card-title fw-bold center mt-3">Beritahu Pesanan Anda Ke Kami</h5>
+            <p class="justify">Langkah berikutnya adalah anda akan diarahkan ke nomer whatsapp kami, disini anda bisa memesan aplikasi yang anda inginkan</p>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <section class="about p-50px my-5 p-0-mob between-center" id="about">
+      <div class="w-50pers me-5 remove-mob">
+        <img src="img/man-9031574_1280-removebg-preview.png" width="100%" alt="Seorang programer membuat program komputer untuk kliennya">
+      </div>
+      <div class="w-50pers w-100pers-mob">
+        <h5 class=" fw-bold">Bagaimana Kalau Tidak Ada Website Yang Sesuai Keinginan Saya?</h5>
+        <p>Jikalau tidak ada website yang sesuai kebutuhan Anda, Kami bersedia membuatkan website sesuai permintaan Anda. Anda dapat menghubungi <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan jasa pembuatan website" class="inline-block lowercase">kami</a>melalui whatsapp dan menjelaskan aplikasi seperti apa yang anda butuhkan.</p>
+        <a href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan jasa pembuatan website" class="px-5 py-2 rounded no-outline no-border bg-third text-white inline-block shadow">Hubungi Kami</a>
+      </div>
+    </section>
+  </div>
+
+  <footer class="mt-5 bg-second px-4 py-3" id="contact">
+    <div class="container between-start column-start-mob text-white">
+      <div class="box-footer">
+        <h4 class="fw-bold">Hidupkan Website <br> <span class="text-warning">Impian Anda</span></h4>
+      </div>
+
+      <div class="box-footer m-50px-0-mob">
+          <p class="fw-bold">Navigasi</p>
+          <a href="#" class="co-white start-center">Beranda</a>
+          <a href="portfolio.html" class="co-white start-center">Produk</a>
+          <a href="service.html" class="co-white start-center">Jasa</a>
+          <a href="contact.html" class="co-white start-center">Kontak</a>
+      </div>
+
+      <div class="box-footer column-start">
+          <p class="fw-bold">Contact</p>
+          <p class="m-p-0">Telephone : <a class="d-inline-block text-white " href="http://wa.me?no=081216227650&text=Halo, saya membutuhkan jasa pembuatan website">(+62) 812 1622 7650</a></p>
+          <p class="m-p-0">Email : debolamarket@gmail.com</p>
+
+          <a href="contact.html" class="text-white m-p-0">Lihat selengkapnya</a>
+      </div>
+    </div>
+    <p class="text-center co-white pt-3 my-4 border-top">Copyright Debola Market - 2024</p>
+  </footer>      
+  <!-- <script src="bootstrap-5.2/js/bootstrap.bundle.min.js"></script> -->
+  <script src="bootstrap-5.2/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
