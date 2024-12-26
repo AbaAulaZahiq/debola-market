@@ -42,6 +42,9 @@
         left: 0;
       }
 
+      .product-container, .steps-container, .service-container{        
+        justify-items: center;
+      }
       .steps-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -50,12 +53,17 @@
       .product-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
       }
 
       @media only screen and (max-width:  824px){
         .column-2-tab{
           display: grid;
           grid-template-columns: 1fr 1fr;
+        }
+
+        .service-container{
+          grid-template-columns: 1fr 1fr 1fr;
         }
 
       }
